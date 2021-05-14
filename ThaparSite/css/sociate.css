@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* color: white; */
+}
+
+.absolute-wrapper{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgb(199, 194, 194);
+    height: 100vh;
+    width: 60%;
+}
+      
+.alphabets {
+    font-size: 0.8rem;
+    padding-left: 0.5srem;
+    padding-top: 4rem;
+
+
+}
+
+.alpha{
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 2.1rem;
+    width: 2rem;
+    border: 1px white;
+    border-radius: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 1rem; */
+    cursor: pointer;
+}
+
+.alpha:hover {
+    background-color: #333;
+    color: white;
+}
+
+.alpha:active {
+    -webkit-transform: scale(0.96);
+    transform: scale(0.96);
+}
